@@ -15,9 +15,6 @@ linters:
     - unused
     - misspell
     - revive
-
-formatters:
-  enable:
     - gofmt
     - goimports
 
@@ -26,8 +23,6 @@ linters-settings:
     check-type-assertions: true
   govet:
     enable-all: true
-
-formatters-settings:
   gofmt:
     simplify: true
 
